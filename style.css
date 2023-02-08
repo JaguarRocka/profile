@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400,700&family=Poppins:ital,wght@0,400;0,800;1,600&display=swap');
+
+#circle-photo {
+  width: 205px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  color: beige;
+  width: 1200px;
+  margin: auto;
+}
+.card-blue{
+  margin: 4% auto;
+  text-align: center;
+  background-color: #d4f1ff;
+  padding:  20px;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 2.3rem;
+  color: #567189;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #567189;
+}
+
+p {
+  color: #7B8FA1;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: #205295;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#link{
+  background-color: #9dc3e4;
+  padding: 20px 40px;
+  border-radius: 1rem;
+  transition-duration: 0.3s;
+  margin: 30px 0px;
+}
+
+#link:hover{
+  background-color: #bdd3e6;
+  color: rgb(240, 238, 238);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 90px;
+  font-weight: 600;
+  margin: 40px;
+}
+
+li a:hover{
+  transition-duration: 0.3s;
+  color: #2C74B3;
+}
+
+
+@media (max-width: 1220px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+   }
+   .list-inline > li {
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+  .list-inline > li {
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 20px;
+  }
+}
